@@ -10,7 +10,6 @@ body{
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 0 144px;
 }
 
 .nav-links {
@@ -30,6 +29,21 @@ ul {
 .intro {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    color: white;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 5px;
 }
 
 .intro-img {
@@ -57,4 +71,9 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 24px;
+}
+
+.header, .intro, .rand-info, .quote-section, .sign-up, .footer {
+    padding-left: 144px;
+    padding-right: 144px;
 }
