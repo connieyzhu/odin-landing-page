@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 144px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav{
+    color: white;
+    text-decoration: none;
+}
+
+.intro {
+    
+}
+
+.rand-info {
+
+}
+
+.quote-section {
+
+}
+
+.sign-up {
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
