@@ -28,7 +28,13 @@ ul {
 }
 
 .intro {
-    
+    background-color: #1F2937;
+    display: flex;
+}
+
+.intro-img {
+    width: 300px;
+    height: auto;
 }
 
 .rand-info {
