@@ -46,13 +46,30 @@ button {
     border-radius: 5px;
 }
 
-.intro-img {
+.intro img{
     width: 300px;
     height: auto;
 }
 
-.rand-info {
+h2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
 
+.rand-info {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.img-text {
+    display: flex;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
 }
 
 .quote-section {
