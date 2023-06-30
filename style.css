@@ -73,7 +73,19 @@ h2 {
 }
 
 .quote-section {
+    background-color: #E5E7EB;
+    padding: 64px 200px;
+}
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quotee {
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
 }
 
 .sign-up {
@@ -90,7 +102,7 @@ h2 {
     padding: 24px;
 }
 
-.header, .intro, .rand-info, .quote-section, .sign-up, .footer {
+.header, .intro, .rand-info, .sign-up, .footer {
     padding-left: 144px;
     padding-right: 144px;
 }
